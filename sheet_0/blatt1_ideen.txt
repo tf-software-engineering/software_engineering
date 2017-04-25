@@ -20,11 +20,23 @@ Since we are usually working in a team it is always required to somehow manage t
 There are of course different types, because some work in different code-fragments.
 Managing between those is critical. 
 
-***The software development is almost always done in a team. Effective teamwork can bring great results, but it need to be well organized. The communication between the members of a group, a proper distribution of work, setting priorities or time scheduling are responsibilities of a project manager. 
+***The software development is almost always done in a team. 
+Effective teamwork can bring great results, but it need to be well organized. 
+The communication between the members of a group, a proper distribution of work, 
+setting priorities or time scheduling are responsibilities of a project manager. 
 
-Why is the work distribution important? A proper work distribution can increase the productivity and improve the quality of outcoming product. There are few common mistakes that can be done:
-- not knowing or not paying attention to the abilities and key skills of team members. This could lead to time waste and frustration among the developers.
-- on the other hand not providing the less experienced employees new challenges. A good manager should give the team members a possibility to develop themselves, otherwise people can lose the interest in work.
-- to give too much work to the most productive, most experienced or most responsible member of a team. An overworked employee would not do his best, would feel stressed and used, and it would spread the rest of the team.
-As we see the work distribution can be a challenging task that requires not only management or executive skills, but also understanding of the capabilities and psychology of team members. This problem is not specific for software development, it is not a part of computer science, however it is applicable and important for people working in IT.***
+Why is the work distribution important?
+A proper work distribution can increase the productivity and improve the quality of outcoming product. 
+There are few common mistakes that can be done:
+- not knowing or not paying attention to the abilities and key skills of team members. 
+This could lead to time waste and frustration among the developers.
+- on the other hand not providing the less experienced employees new challenges. 
+A good manager should give the team members a possibility to develop themselves, 
+otherwise people can lose the interest in work.
+- to give too much work to the most productive, most experienced or most responsible member of a team. 
+An overworked employee would not do his best, would feel stressed and used, and it would spread the rest of the team.
+As we see the work distribution can be a challenging task that requires not only management or executive skills, 
+but also understanding of the capabilities and psychology of team members. 
+This problem is not specific for software development, it is not a part of computer science, 
+however it is applicable and important for people working in IT.***
 
