@@ -1,0 +1,4 @@
+learning the modern techniques of software engineering (agil instead of waterfall)
+ - e.g. DDD, TDD, BDD
+ 
+heavy focus on software architecture (more than just some design patterns)

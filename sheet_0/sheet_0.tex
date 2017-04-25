@@ -1,0 +1,109 @@
+\documentclass{scrartcl}
+\usepackage{german}
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+
+\newcommand{\RNum}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
+
+% zusätzliche mathematische Symbole, AMS=American Mathematical Society 
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+% fürs Einbinden von Graphiken
+\usepackage{graphicx}
+
+% für Namen etc. in Kopf- oder Fußzeile
+\usepackage{fancyhdr}
+
+% erlaubt benutzerdefinierte Kopfzeilen 
+\pagestyle{fancy}
+
+% Definition der Kopfzeile
+\iffalse
+\lhead{
+\begin{tabular}{ll}
+Nils Hagner & 4346038 \\
+\end{tabular}
+}
+\fi
+\chead{}
+\rhead{\today{}}
+\lfoot{}
+\cfoot{Seite \thepage}
+\rfoot{} 
+
+\begin{document}
+
+\section*{Solutions to Excercise Sheet 0}
+
+\subsection*{Exercise 1 – Are Software Engineers Managers?}
+
+\subsection*{Exercise 2 – Does Software Reliability Matter?}
+
+\subsection*{Exercise 1 – Are Software Engineers Managers?}
+
+\section*{Survey}
+
+\subsection*{1. Expectations}
+
+\subsection*{2. Previous Experience}
+
+
+\begin{tabular}{| p{10cm} | c | c | c | c | c | c | c | c | c | c | c |}
+	\hline
+	& 0& 1& 2& 3& 4& 5& 6& 7& 8& 9& 10\\
+	\hline
+	Project Management (cf. Exercise 1) \\
+	\hline
+	Nils Hagner &x&&&&&&&&&\\ \hline
+	Michael Fleig &&&x&&&&&&&\\ \hline
+	Anush Davtyan &&&&&&&&&&\\ \hline
+	Felix Karg &&&&&&&x&&&\\ \hline
+	Requirements Engineering (capturing and managing requirements from users or clients)\\
+	\hline
+	Nils Hagner &x&&&&&&&&&\\ \hline
+	Michael Fleig &&&&&&x&&&&\\ \hline
+	Anush Davtyan &&&&&&&&&&\\ \hline
+	Felix Karg &&&&&x&&&&&\\ \hline
+	Programming (writing code, fixing bugs)\\
+	\hline
+	Nils Hagner &x&&&&&&&&&\\ \hline
+	Michael Fleig &&&&&&&&&&x&\\ \hline
+	Anush Davtyan &&&&&&&&&&\\ \hline
+	Felix Karg &&&&&&&&&&x\\ \hline
+	Design Modelling (creating an architecture or behavior model of a solution)\\
+	\hline
+	Nils Hagner x&&&&&&&&&&\\ \hline
+	Michael Fleig &&&&&&&&&&x\\ \hline
+	Anush Davtyan &&&&&&&&&&\\ \hline
+	Felix Karg &&&&&&&&x&&\\ \hline
+	Software Quality Assurance (e.g., testing, code review, formal verification)\\
+	\hline
+	Nils Hagner &x&&&&&&&&&\\ \hline
+	Michael Fleig &&&&&&&&&x&\\ \hline
+	Anush Davtyan &&&&&&&&&&\\ \hline
+	Felix Karg &&&&&&&&&x&\\ \hline
+\end{tabular}
+
+
+\subsection*{3. Regarding the Softwarepraktikum...}
+\begin{tabular} {| p{8cm} | c | c | c | c |}
+	\hline
+	&Nils Hagner&Michael Fleig&Anush Davtyan&Felix Karg\\
+	\hline
+	I will be participating in it this semester. &&&&\\
+	\hline
+	I have already taken part. &&&&\\
+	\hline
+	I will participate in it in the following semesters. &x&x&x&x\\
+	\hline
+	It is not part of my study plan. &&&&\\
+	\hline
+\end{tabular}
+
+\subsection*{4. Language}
+$\square$ German.\\
+$\square$ I prefer German, but English is okay.\\
+$\boxtimes$ I prefer English, but German is okay.\\
+$\square$ English.\\
+\end{document}
