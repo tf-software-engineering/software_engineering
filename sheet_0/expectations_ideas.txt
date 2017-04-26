@@ -5,10 +5,19 @@ heavy focus on software architecture (more than just some design patterns)
 
 Our expetcations in Softwaretechnik course are:
 - to understand the prosess of software production;
-- to gain the knowledges in requirement analysis, prosess scheduling,
-organisation, resource distribution, design and testing;
-- to learn how to use basic and maybe some advanced technics,
-models and patterns in software development;
-- to focus deeper on software architecture;
+- to gain the knowledges in requirement analysis, process scheduling,
+    organisation, resource distribution, design and testing;
+- to learn how to use basic and maybe some advanced techniques,
+    models and patterns in software development;
+- to focus deeper on software architecture in General;
 - get smarter;
 - have fun;
+- getting to know valuable Design-Patterns
+- Learning more about General Planning as well as
+    Specific in Software Development
+- Thinking about Software in a more General way
+- Getting tools for Attacking Problems with the help of Software
+
+
+
+
