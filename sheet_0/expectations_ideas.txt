@@ -2,3 +2,7 @@ learning the modern techniques of software engineering (agil instead of waterfal
  - e.g. DDD, TDD, BDD
  
 heavy focus on software architecture (more than just some design patterns)
+
+getting an overview of different approaches on how to build software,
+especially the relation between requirements from a customer and programming,
+e. g. how to efficiently go from start to finish in a software project

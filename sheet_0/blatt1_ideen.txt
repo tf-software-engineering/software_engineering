@@ -7,21 +7,8 @@ Manager:
 
 IT-only:
 * Scrum. (e.g. Scrum-Master, Manage Team assigned tasks, etc)
-* Managing the interaction between different Software components (eg. libraries etc.)
-    the hard task being defining project boundaries (correct encapsulation).
-    defining standards for your work, for APIs, Code Quality, StyleGuide, Architecture
-    Checking and Managing resource requirements of projects (e.g. Time, Money, RAM, CPU-Power)
-* communication between domain experts / outside world and developer team
-    When developing software for a buisness it is essential that the software reflects the buisness.
-    To do so, experts and developers have to agree on a common language
-
-
-Since we are usually working in a team it is always required to somehow manage that.
-There are of course different types, because some work in different code-fragments.
-Managing between those is critical. 
-
-***The software development is almost always done in a team. 
-Effective teamwork can bring great results, but it need to be well organized. 
+The software development is almost always done in a team. 
+Effective teamwork can bring great results, but it needs to be well organized. 
 The communication between the members of a group, a proper distribution of work, 
 setting priorities or time scheduling are responsibilities of a project manager. 
 
@@ -37,6 +24,25 @@ otherwise people can lose the interest in work.
 An overworked employee would not do his best, would feel stressed and used, and it would spread the rest of the team.
 As we see the work distribution can be a challenging task that requires not only management or executive skills, 
 but also understanding of the capabilities and psychology of team members. 
-This problem is not specific for software development, it is not a part of computer science, 
-however it is applicable and important for people working in IT.***
+This problem is not specific to software development, 
+however it is applicable and very important for people working in IT.
+
+Why 'normal' managers could'nt do this:
+Experience in managing would be beneficial to this, but in software developement it is especially critical
+to have at least some knowledge of the tasks one distributes to others. For example it can be harmful to
+the development process if managers don't understand the real value of testing or underestimate the cost
+of implementing a feature.
+
+* Managing the interaction between different Software components (eg. libraries etc.)
+    the hard task being defining project boundaries (correct encapsulation).
+    defining standards for your work, for APIs, Code Quality, StyleGuide, Architecture
+    Checking and Managing resource requirements of projects (e.g. Time, Money, RAM, CPU-Power)
+* communication between domain experts / outside world and developer team
+    When developing software for a buisness it is essential that the software reflects the buisness.
+    To do so, experts and developers have to agree on a common language
+
+
+Since we are usually working in a team it is always required to somehow manage that.
+There are of course different types, because some work in different code-fragments.
+Managing between those is critical. 
 
