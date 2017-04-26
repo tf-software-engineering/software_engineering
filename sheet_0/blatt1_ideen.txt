@@ -42,12 +42,9 @@ and experiense in computer science. Technical limitations has to be considered.
 Unresaonable time demands for example or money limitations can lead to degradation of the quality 
 or in the worst case to not accomplisching the task, which is waste of time and money.
 
-* communication between domain experts / outside world and developer team
-    When developing software for a buisness it is essential that the software reflects the buisness.
-    To do so, experts and developers have to agree on a common language
+* Good sotware reflects to domain it tries to solve.
+Most software is developed for other industries than our own. So developer have to understand the domain they are working in. We can't build a banking software without understanding how accounting works.
+To achieve this communication with domain experts is essential. 
+Although translation between different teams/ departments is a typical managment activity in software development it requires a requires a thorough understanding of our industry.
 
-
-Since we are usually working in a team it is always required to somehow manage that.
-There are of course different types, because some work in different code-fragments.
-Managing between those is critical. 
 
