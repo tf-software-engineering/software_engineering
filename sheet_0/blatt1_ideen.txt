@@ -34,9 +34,14 @@ the development process if managers don't understand the real value of testing o
 of implementing a feature.
 
 * Managing the interaction between different Software components (eg. libraries etc.)
-    the hard task being defining project boundaries (correct encapsulation).
-    defining standards for your work, for APIs, Code Quality, StyleGuide, Architecture
-    Checking and Managing resource requirements of projects (e.g. Time, Money, RAM, CPU-Power)
+Defining the project boundaries can be a challenging task. 
+For software development it is essential to determine the standarts of the work,
+APIs, code quality, architecture and to manage resources(e.g. time, money, RAM, CPU-Power). 
+This has to be done by a project manager. However this management activity requires knowledges 
+and experiense in computer science. Technical limitations has to be considered. 
+Unresaonable time demands for example or money limitations can lead to degradation of the quality 
+or in the worst case to not accomplisching the task, which is waste of time and money.
+
 * communication between domain experts / outside world and developer team
     When developing software for a buisness it is essential that the software reflects the buisness.
     To do so, experts and developers have to agree on a common language
