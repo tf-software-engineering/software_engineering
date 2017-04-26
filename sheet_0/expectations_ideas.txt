@@ -3,6 +3,12 @@ learning the modern techniques of software engineering (agil instead of waterfal
  
 heavy focus on software architecture (more than just some design patterns)
 
-getting an overview of different approaches on how to build software,
-especially the relation between requirements from a customer and programming,
-e. g. how to efficiently go from start to finish in a software project
+Our expetcations in Softwaretechnik course are:
+- to understand the prosess of software production;
+- to gain the knowledges in requirement analysis, prosess scheduling,
+organisation, resource distribution, design and testing;
+- to learn how to use basic and maybe some advanced technics,
+models and patterns in software development;
+- to focus deeper on software architecture;
+- get smarter;
+- have fun;
