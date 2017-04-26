@@ -87,18 +87,17 @@ Although translation between different teams/ departments is a typical managemen
 
 The heartbleed bug was a vulnerability introduced to the Codebase of OpenSSl in December 2011. Since March 2012, affected Versions of OpenSSL allowed atackers to extract information from the RAM of connected servers which was often used before to store private keys and other important information.
 
-The vulnerability was caused by the implementation of a the 'heartbeat', which is usually used to determine wether a TSL-encrypted connection to a server is still usable and the other partner is responding. This should have been done by sending a message and getting the same content of it back, but the message could be altered in a way which would lead to the system to send up to 64 KiB unused memory following the buffer which was used to store the received information. Because this memory was likely to be used by OpenSSL before, it often contained sensible information.\\
+The vulnerability was caused by the implementation of a the 'heartbeat', which is usually used to determine wether a TSL-encrypted connection to a server is still usable and the other partner is responding. This should have been done by sending a message and getting the same content of it back, but the message could be altered in a way which would lead the receiving system to send up to 64 KiB unused memory following the buffer which was used to store the received information. Because this memory was likely to be used by OpenSSL before, it often contained sensible information.\\
 
 The exact damage which was caused is not exactly known, because the bug was not noticed for nearly two years, but there were some incidents where
-Social , and one where researchers could extract their own private keys from a machine.\\
-The bug could have been notecied way earlier:\\
-If the implementation which was adopted into the codebase would have been checked better, the vulnerability would not have existed.
+Social Insurance Numbers from about 900 Canadian Taxpayers were stolen, and one where researchers could extract their own private keys from a machine.\\
+By now, it is thought of one of the most threatening vulnerabilities in the last few years, and one which has had a great media coverage.
+The bug could have been noticed way earlier:\\
+Firstly, the bug in the implementation could have been noticed by the author.
+Secondly, if the implementation which was adopted into the codebase would have been checked better, the vulnerability would not have existed.
+And thirdly: If the code would have been refactored within the two years, one might have noticed the flaw.
 
-
-Provide a general description of the case, followed by a more detailed description of the software-related issue and its consequences.
- Quantify the damages caused and argue why the case is relevant.
-Discuss in how far the incident (following official reports, or in your opinion) is related to issues with
-requirements, design, quality assurance, management, or usage under specified conditions.\\
+So it was mainly bad Quality assurance which led to the adoption of the vulnerable implementation into the codebase, with more attention and help it may could have been prevented.
 \em Sources: http://heartbleed.com/ \hspace{1cm} https://en.wikipedia.org/wiki/Heartbleed
 \em 
 \section*{Survey}
