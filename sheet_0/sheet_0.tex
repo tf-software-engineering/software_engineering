@@ -1,11 +1,12 @@
 \documentclass{scrartcl}
+\usepackage[bottom=10em]{geometry}
 \usepackage{german}
 \usepackage[utf8]{inputenc}
 \usepackage[german]{babel}
 
 \newcommand{\RNum}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
 
-% zusätzliche mathematische Symbole, AMS=American Mathematical Society 
+% zusätzliche mathematische Symbole, AMS=American Mathematical Society
 \usepackage{amssymb}
 \usepackage{amsmath}
 
@@ -15,7 +16,7 @@
 % für Namen etc. in Kopf- oder Fußzeile
 \usepackage{fancyhdr}
 
-% erlaubt benutzerdefinierte Kopfzeilen 
+% erlaubt benutzerdefinierte Kopfzeilen
 \pagestyle{fancy}
 
 % Definition der Kopfzeile
@@ -23,6 +24,7 @@
 \lhead{
 \begin{tabular}{ll}
 Nils Hagner & 4346038 \\
+Felix Karg & 4342014 \\
 \end{tabular}
 }
 \fi
@@ -30,7 +32,7 @@ Nils Hagner & 4346038 \\
 \rhead{\today{}}
 \lfoot{}
 \cfoot{Seite \thepage}
-\rfoot{} 
+\rfoot{}
 
 \begin{document}
 
@@ -38,26 +40,26 @@ Nils Hagner & 4346038 \\
 
 \subsection*{Exercise 1 – Are Software Engineers Managers?}
 \begin{itemize}
-\item The software development is almost always done in a team. 
-Effective teamwork can bring great results, but it needs to be well organized. 
-The communication between the members of a group, a proper distribution of work, 
-setting priorities or time scheduling are responsibilities of a project manager. 
+\item The software development is almost always done in a team.
+Effective teamwork can bring great results, but it needs to be well organized.
+The communication between the members of a group, a proper distribution of work,
+setting priorities or time scheduling are responsibilities of a project manager.
 
 Why is the work distribution important?
-A proper work distribution can increase the productivity and improve the quality of out coming product. 
+A proper work distribution can increase the productivity and improve the quality of out coming product.
 There are few common mistakes that can be done:
 \begin{itemize}
-\item not knowing or not paying attention to the abilities and key skills of team members. 
+\item not knowing or not paying attention to the abilities and key skills of team members.
 This could lead to time waste and frustration among the developers.
-\item On the other hand not providing the less experienced employees new challenges. 
-A good manager should give the team members a possibility to develop themselves, 
+\item On the other hand not providing the less experienced employees new challenges.
+A good manager should give the team members a possibility to develop themselves,
 otherwise people can lose the interest in work.
-\item To give too much work to the most productive, most experienced or most responsible member of a team. 
+\item To give too much work to the most productive, most experienced or most responsible member of a team.
 An overworked employee would not do his best, would feel stressed and used, and it would spread the rest of the team.
-As we see the work distribution can be a challenging task that requires not only management or executive skills, 
-but also understanding of the capabilities and psychology of team members. 
+As we see the work distribution can be a challenging task that requires not only management or executive skills,
+but also understanding of the capabilities and psychology of team members.
 \end{itemize}
-This problem is not specific to software development, 
+This problem is not specific to software development,
 however it is applicable and very important for people working in IT.
 
 Why 'normal' managers couldn't do this:
@@ -67,17 +69,17 @@ the development process if managers don't understand the real value of testing o
 of implementing a feature.
 
 \item Managing the interaction between different Software components (eg. libraries etc.)
-Defining the project boundaries can be a challenging task. 
+Defining the project boundaries can be a challenging task.
 For software development it is essential to determine the standards of the work,
-APIs, code quality, architecture and to manage resources(e.g. time, money, RAM, CPU-Power). 
-This has to be done by a project manager. However this management activity requires knowledges 
-and experience in computer science. Technical limitations has to be considered. 
-Unreasonable time demands for example or money limitations can lead to degradation of the quality 
+APIs, code quality, architecture and to manage resources(e.g. time, money, RAM, CPU-Power).
+This has to be done by a project manager. However this management activity requires knowledges
+and experience in computer science. Technical limitations has to be considered.
+Unreasonable time demands for example or money limitations can lead to degradation of the quality
 or in the worst case to not accomplishing the task, which is waste of time and money.
 
 \item Good software reflects to domain it tries to solve.
 Most software is developed for other industries than our own. So developer have to understand the domain they are working in. We can't build a banking software without understanding how accounting works.
-To achieve this communication with domain experts is essential. 
+To achieve this communication with domain experts is essential.
 Although translation between different teams/ departments is a typical management activity in software development it requires a requires a thorough understanding of our industry.
 \end{itemize}
 
@@ -104,26 +106,24 @@ requirements, design, quality assurance, management, or usage under specified co
 \section*{Survey}
 
 \subsection*{1. Expectations}
-Our expectations in Softwaretechnik course are:
+Our expectations for the Softwaretechnik/Software Engineering course are:
 \begin{itemize}
-\item to understand the process of software production
-\item Learning more about General Planning as well as
-Specific to Software Development
-\item to gain knowledge in requirement analysis, process scheduling,
-organization, resource distribution, design and testing
-\item to learn how to use basic and maybe some advanced techniques,
-models and patterns in software development
-\item learn the modern techniques of software engineering (agil instead of waterfall), e.g. DDD, TDD, BDD
-\item getting to know valuable Design-Patterns
-\item to see a focus on software architecture (more than just some design patterns)
-\item to focus deeper on software architecture in General
-\item to get smarter
-\item have fun
-\item think about Software in a more General way
-%\item getting tools for Attacking Problems with the help of Software
+\item Understanding the procedure of software production, including common mishaps at each step
+\item Learning more about the planning process in general as well as specifically applied to Software Development
+\item to gain knowledge in requirement analysis, process scheduling (..), organization, resource distribution, design and testing
+\item to learn how to use basic and maybe some advanced techniques, models and patterns in software development
+\item learn the modern techniques of software engineering (agil instead of waterfall), e.g. D(omain)D(riven)D(esign), T(est)D(riven)D(esign), B(ehaviour)D(riven)D(esign)
+\item getting to know valuable Design-Patterns and being able to apply them more generally
+\item to see a focus on software architecture (more than just some design patterns, e.g. scalability, ...) in general, specifically how to design and maybe use them
+\item to get smarter, have some fun, and learn a lot along the way, not only for the further studying or working but also for life
+\item think about Software in a more General way, as in having a deeper knowledge about it's usual background
+\item getting tools (roughly specific ideas) for attacking Problems with the help of Software, or simply training that
 \end{itemize}
 
-We think that this will help us with our career because management experience (even if only in theory) can help in any job. And for a programmer it is good to have an overview of the entire process one is working in. For coding projects one is doing as a hobby, which sometimes can be good for a portfolio, it is good to to know what (not) to do, and how to work efficiently. And getting better at problem solving, working as a team and having fun just makes studying (and later on working) easier.
+We think that this will help us with our career because management experience (even if only in theory) can help in any job additionally to it being useful for Life on a more general scale.
+As upcoming Software Engineers it's more than useful having at least some basic knowledge about not only how to code, or rather, in the actual field of Software Engineering.
+Additionally, hobby projects or help on Open-Source Projects in spare time could be done more efficiently, knowing some of the involved processes, usually used structures for more efficiancy and more.
+Getting better at problem solving is another one, working as a team and having fun just makes studying (and later on working) a whole lot easier.
 
 \subsection*{2. Previous Experience}
 
