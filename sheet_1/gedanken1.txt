@@ -27,3 +27,9 @@ print('Hello World!')
 pass
 pass
 pass
+
+
+
+
+1.2.ii.
+Cyclomatic complexity for graph G is defined as: v(G) = edges - nodes + external. The number of external connections does not change, if we put one extra node, we need to connect it with one extra edge. Therefore the absolute differens (edges - nodes) does not change - this does not affect v(G).
