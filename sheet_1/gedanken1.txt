@@ -12,12 +12,7 @@ next statement\\ comment
 next statement continued\\ comment
 
 or in Python one can write:
-pass
-pass
-pass
-somefunction()
-pass
-pass
+
 Program 1:
 ----------
 print('Hello World!')
