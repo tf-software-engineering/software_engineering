@@ -5,8 +5,7 @@
 \usepackage[german]{babel}
 
 \usepackage{enumerate} % for the roman enumeration
-\usepackage{listings} % for using language-specific syntax highlighting
-\usepackage{minted}
+\usepackage{minted} % for using language-specific syntax highlighting
 
 \newcommand{\RNum}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
 
@@ -56,10 +55,25 @@ Anush Davtyan & \\
         \inputminted[linenos]{Haskell}{MyQuickSort.hs}
 
 
+
         $LOC_{parsH} = 9 - 2 = 7$ \\
-        So there is $LOC_{pars}$ with 49 as well as $LOC_{parsH}$ with 7 (Order of magnititude: $n\ vs\ n^2$!).
-        These are obviously two entirely different Programs, yet they are semantically equivalent (in that they)
-        offer an interface to a function capable of sorting a List of items with an algorithm of the Quicksort-category.
+        So there is $LOC_{pars}$ with 49 as well as $LOC_{parsH}$ with 7 (Order of magnititude: $n^2\ vs\ n$!).
+        These are obviously two entirely different Programs, yet they are semantically equivalent in that they
+        offer an interface to a function capable of sorting a List of items with a Quicksort-Algorithm. \\ \\
+
+        In this case the recognized Pattern is to use a library or tool requiring a lot of (hardcoded) configuration,
+        where a simpler one would clearly suffice. That way you would have a lot of managing / organizing / configurating
+        overhead, which can be overblown to the fullest if wanted (resulting in an LOC of literally any number you wish).
+
+    \item Metrics: \\
+        $ LOCtot = 178  $ \\
+        $ LOCne = 136   $ \\
+        $ LOCpars = 120 $ \\
+        It basically configures all the GUI-Elements (like buttons etc.), their Positions, Sizes,
+        how they should behave when resizing the window or when being clicked, and more. \\
+        The Program itself is a simulator for AI-Ants to find paths in a generated Maze, the whole Project written in C++.
+
+
 \end{enumerate}
 
 
