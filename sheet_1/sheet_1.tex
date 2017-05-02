@@ -4,6 +4,10 @@
 \usepackage[utf8]{inputenc}
 \usepackage[german]{babel}
 
+\usepackage{enumerate} % for the roman enumeration
+\usepackage{listings} % for using language-specific syntax highlighting
+\usepackage{minted}
+
 \newcommand{\RNum}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
 
 % zusätzliche mathematische Symbole, AMS=American Mathematical Society
@@ -25,6 +29,8 @@
 \begin{tabular}{ll}
 Nils Hagner & 4346038 \\
 Felix Karg & 4342014 \\
+Michael Fleig & \\
+Anush Davtyan & \\
 \end{tabular}
 }
 \fi
@@ -38,11 +44,28 @@ Felix Karg & 4342014 \\
 
 \section*{Solutions to Exercise Sheet 1}
 
-\subsection*{Exercise 1 - }
+\section*{Exercise 1 - Metrics}
 
-LOCtot = 74
-LOCne = 74-10=64
-LOCpars = 64-15=49
+\subsection*{1.1 Lines of Code Metrics}
+
+\begin{enumerate}[i]
+    \item $LOC_{tot} = 74 $\\
+          $ LOC_{ne} = 74 - 10 = 64 $\\
+          $ LOC_{pars} = 64 - 15 = 49 $\\
+    \item Example Haskell-Code for contrasting the given MyQuickSort.java: \\
+        \inputminted[linenos]{Haskell}{MyQuickSort.hs}
+
+
+        $LOC_{parsH} = 9 - 2 = 7$ \\
+        So there is $LOC_{pars}$ with 49 as well as $LOC_{parsH}$ with 7 (Order of magnititude: $n\ vs\ n^2$!).
+        These are obviously two entirely different Programs, yet they are semantically equivalent (in that they)
+        offer an interface to a function capable of sorting a List of items with an algorithm of the Quicksort-category.
+\end{enumerate}
+
+
+
+\subsection*{1.2 Cyclomatic Complexity}
+
 
 
 
