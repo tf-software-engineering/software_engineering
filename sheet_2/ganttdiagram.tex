@@ -1,0 +1,43 @@
+\documentclass{article}
+
+\usepackage{pgfgantt}
+
+\begin{document}
+
+
+\begin{ganttchart}[
+        hgrid,
+        vgrid
+    ]{1}{17}
+    \gantttitle{Half Person-Months}{17} \\
+    \gantttitlelist{1,...,17}{1} \\
+
+    \ganttgroup{Maria}{1}{1}
+    \ganttgroup{Maria}{11}{11} \\
+
+    \ganttbar{Create Spec}{1}{1} \\
+
+    \ganttgroup{Herbert}{2}{10} \\
+
+    \ganttbar{SW Module Dev}{2}{4} \\
+    \ganttbar{SW Module QA}{5}{6} \\
+    \ganttbar{Module Integration}{7}{8} \\
+    \ganttbar{System QA}{9}{10} \\
+    \ganttbar{Create Test Spec}{11}{11} \\
+
+    \ganttgroup{Karin}{12}{15} \\
+
+    \ganttbar{Submit for cert Test}{12}{13} \\
+    \ganttbar{Documentation}{14}{15} \\
+
+    \ganttgroup{Jane}{16}{17} \\
+
+    \ganttbar{Deliver}{16}{17}
+
+\end{ganttchart} \\
+
+I'm afraid to say that we were not capable of numbering through
+correctly (in half PM's) or to correctly \LaTeX  quarter-PM's.
+The used package seems to be not capable of doing so.
+
+\end{document}
