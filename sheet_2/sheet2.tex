@@ -3,7 +3,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[german]{babel}
 
-% zusätzliche mathematische Symbole, AMS=American Mathematical Society 
+% zusätzliche mathematische Symbole, AMS=American Mathematical Society
 \usepackage{amssymb}
 \usepackage{amsmath}
 % fürs Einbinden von Graphiken
@@ -12,8 +12,12 @@
 % für Namen etc. in Kopf- oder Fußzeile
 \usepackage{fancyhdr}
 
-% erlaubt benutzerdefinierte Kopfzeilen 
+% erlaubt benutzerdefinierte Kopfzeilen
 \pagestyle{fancy}
+
+% used for drawing the gantt-diagram
+\usepackage{pgfgantt}
+
 
 % Definition der Kopfzeile
 \lhead{
@@ -26,7 +30,7 @@ Michael Fleig & 4340085 & Anush Davtyan &4368689
 \rhead{\today{}}
 \lfoot{}
 \cfoot{Seite \thepage}
-\rfoot{} 
+\rfoot{}
 
 \begin{document}
 
@@ -44,11 +48,10 @@ Michael Fleig & 4340085 & Anush Davtyan &4368689
 		1 & 12, 13, 12, 10\\
 		2 & 12\\
 	\end{tabular}\\\\
-	TODO. \\
+	% TODO: Nils
 	\item[iii]
 	We decided for small size, greater innovation, medium deadlines and stable development environment. Because of this we chose a medium project with $a=3.0$ and $b=1.12$.\\
 	\item[iv]
-
 		\item[]Required software reliability: nominal
 		\item[]Size of application database:  none
 		\item[]Complexity of the product:  nominal
@@ -67,7 +70,6 @@ Michael Fleig & 4340085 & Anush Davtyan &4368689
 
 
 	\item[v]
-
 	\begin{tabular}{l | c}
 		parameter & chosen value \\
 		\hline
@@ -104,9 +106,18 @@ Michael Fleig & 4340085 & Anush Davtyan &4368689
 	\end{tabular}\\\\
 	The resulting project size in PM is (with $a=3$ and $b=1.12$):
 	\[3 \cdot (12)^{1.12}\cdot (1\cdot 1 \cdot 1 \cdot 1 \cdot 0.87 \cdot 1.19 \cdot 1.13 \cdot 1 \cdot 0.9 \cdot 1.14 \cdot 1.1 \cdot 1 \cdot 1) \approx 64\]
-	The two values differ drastically, the first is nearly a tenth of the second. 
+	The two values differ drastically, the first is nearly a tenth of the second.
+        This might be due to the way higher expectations of Code Quality or Project length, as well as the larger growth of smaller projects.
 \end{itemize}
 
 \subsection*{Exercise 2 – Process Modeling}
+
+\begin{itemize}
+    \item[i] % TODO: Michi 
+    \item[ii] (Might be on next page)
+        \include{ganttdiagram}
+    \item[iii] % TODO: Michi
+    \item[iv] % TODO: Michi? Was kann parallelisiert werden? Kann überhaupt etwas Paralellisiert werden? Oder geht's mit dem Praktikanten einfach nur schneller?
+\end{itemize}
 
 \end{document}
