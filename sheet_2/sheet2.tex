@@ -48,60 +48,75 @@ Michael Fleig & 4340085 & Anush Davtyan &4368689
 		1 & 12, 13, 12, 10\\
 		2 & 12\\
 	\end{tabular}\\\\
-	% TODO: Nils
+	Surprisingly, our estimates did not differ that much in the first round.
+	By giving opinions for the lowest and the highest values, such as low experience leading to redundancy in the code, or that the use of a framework could reduce the amount of code, we came to the conclusion that the project should have about 12 $KLOC_{pars}$. 
 	\item[iii]
 	We decided for small size, greater innovation, medium deadlines and stable development environment. Because of this we chose a medium project with $a=3.0$ and $b=1.12$.\\
 	\item[iv]
-		\item[]Required software reliability: nominal
-		\item[]Size of application database:  none
-		\item[]Complexity of the product:  nominal
-		\item[]Run-time performance constraints:   nominal
-		\item[]Memory constraints:  nominal
-		\item[]Volatility of the virtual machine env.:  none
-		\item[]Computer turnaround time:  low
-		\item[]Analyst capability:  low
-		\item[]Applications experience:  low
-		\item[]Software engineer capability:  nominal
-		\item[]Virtual machine experience:  high
-		\item[]Programming language experience:  very low
-		\item[]Use of modern programming practices:  low
-		\item[]Use of software tools:  nominal
-		\item[]Required development schedule:  nominal
+		\item[]Required software reliability: nominal \\ If the system fails, the user can loose all points achieved in the game, but the points can be achieved again in not a very long time.
+		\item[]Size of application database:  none \\
+		It is very low, we do not need a database.
+		\item[]Complexity of the product:  nominal \\
+		It is nominal because: only standart math will be used; mostly simple nesting; some divice-dependent operations, like error prosessing, but no operations at the physical I/O level; only simple structural changes and simple edits.
+		\item[]Run-time performance constraints:   nominal \\
+		Because the software is processor-intensive.
+		\item[]Memory constraints:  nominal\\
+		Because the group has only little experience, and we assume the program will be not very effective.
+		\item[]Volatility of the virtual machine env.:  very low \\
+		Because there are no changes of the working environment.
+		\item[]Computer turnaround time:  low\\
+		Because the game is (or should be) interactive.
+		\item[]Analyst capability:  low\\
+		Because of too little experience.
+		\item[]Applications experience:  low \\
+		Because the students do not have a lot of working experience.
+		\item[]Software engineer capability:  nominal\\
+		The developers should have some experience in teamwork.
+		\item[]Virtual machine experience:  high \\
+		Because the software(game) developing do not require very high virtual machine experience.
+		\item[]Programming language experience:  very low\\
+		Because the students have almost no experience in C\# or F\#.
+		\item[]Use of modern programming practices:  low\\
+		The group the group is only starting to use such practices.
+		\item[]Use of software tools:  nominal\\
+		Some useful software tools will be used.
+		\item[]Required development schedule:  nominal\\
+		Because a fixed deadline is set.
 
 
 	\item[v]
 	\begin{tabular}{l | c}
 		parameter & chosen value \\
 		\hline
-		% Required software reliability: if the system fails, the user can loose all points achieved in the game, but the points can be achieved again in not a very long time.
+
 		Required software reliability & 1\\
-		% Size of application database: it is very low, we do not need a database.
+
 		Size of application database & -\\
-		% Complexity of a product: it is nominal, because: only standart math will be used; mostly simple nesting; some divice-dependent operations, like error prosessing, but no operations at the physical I/O level; only simple structural changes and simple edits.
+
 		Complexity of the product & 1\\
-		% Run-time performance constraints: nominal, because the software is processor-intensive.
+
 		Run-time performance constraints  & 1\\
-		% Memory constraints: nominal, because the group has only little experience, and we assume the program will be not very effective.
+
 		Memory constraints & 1\\
-		% Volatility: very low, no changes of the working environment.
+
 		Volatility of the virtual machine env. & -\\
-		% Computer turnaround time: low, the game is interactive.
+
 		Computer turnaround time & 0.87\\
-		% Analyst capability: low, too little experience.
+
 		Analyst capability & 1.19\\
-		% Applications experience: low, students do not have a lot of experience.
+
 		Applications experience & 1.13\\
-		% Software engineer capability: nominal, the developers should have some experience in teamwork.
+
 		Software engineer capability & 1\\
-		% Virtual machine experience: high, because the software(game) developing do not require very high virtual machine experience.
+
 		Virtual machine experience & 0.9\\
-		% Programming language experience: very low, almost no experience in C# or F#.
+
 		Programming language experience & 1.14\\
-		% Use of moderm programming practices: low, the group the group is only starting to use such practices.
+
 		Use of modern programming practices & 1.1\\
-		% Use of software tools: nominal, some useful software tools will be used.
+
 		Use of software tools & 1\\
-		% Required developemnt schedule: nominal, have a set deadline.
+
 		Required development schedule & 1\\
 	\end{tabular}\\\\
 	The resulting project size in PM is (with $a=3$ and $b=1.12$):
