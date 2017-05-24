@@ -37,7 +37,9 @@ Question 3:
     Display in what form, e.g. 'raw' data in a table or does it have to be a nice-looking graphic?
 
 Question 4:
-    
+    Should the statistics differ in the their topic, eg. should they be closely related
+    or cover broader area? How many of them should relate to the players individual 
+    activity, and how many different statistics are we (the developers) allowed to collect?
 
 
 
