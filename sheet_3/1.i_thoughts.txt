@@ -1,0 +1,10 @@
+game
+what part of the program?  
+collect
+The whole In-Game time or just at startup? who should collect? The renderer...?
+display
+where should it display? In a pause menu, an own interface, on facebook?
+different statistics
+should the statistics be for the player (individually), or the developer (accumulated, broader analytics)?
+if for the player, do they need to be relevant? Should they differ in the area where they
+are collected or can they be derived from a single or two values?
