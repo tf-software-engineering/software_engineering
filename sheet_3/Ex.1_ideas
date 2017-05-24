@@ -1,0 +1,21 @@
+The game must collect and display at least 5 diﬀerent statistics.
+
+Conditions to clarify:
+
+1. Where the statisics is displayed: in game window, in internet (like how many players there are, or who has the highest score).
+2. Different statistics or different types of statistics?
+3. What kind of statistics : for player (like the score, energy level, number of lifes, money),
+for developer (wich errors and how many, how many times failed, how much of ram the game takes for different levels, etc.),
+some web statistics (if the game is web-based, like how many people entered and did not start to play, how many people stopped
+after the first level, from wich contries, the best score, the number of current players.), maybe some markrting stats ( 
+like wich character have been chosen often, wich design, if you can change it)
+4. Collect the statistics: only for current game, or save in database?
+5. Should the statistics of players be opened for other players?
+6. Should there be a tool to build some graphs/diagrams of collected statistics?
+
+Originality challange: 
+
+We consider, that the statistics to be collected is a questionnary with 5 questions, that has to be answered by every player.
+Questions like: did you like the game? Do you think pink for the design is a good idea? etc.
+For each question there would be 5 stars, 0-star for not at all, 5-stars for yes absolutelly.
+this statistics would be sent each developer per email to inform the participants wether the users liked the game or not.
