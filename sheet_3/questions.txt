@@ -1,0 +1,43 @@
+Here are four different Interpretations of the sentence:
+
+The game must collect and display at least 5 different statistics.
+
+
+Interpretation 1:
+    The game collects statistics about the users progress and behaviour, and will make them
+    available through either showing it in-game or through sharing it on facebook or other social media.
+
+
+Interpretation 2:
+    There will be collected a lot of information about the behavior of the application, like memory usage
+    or CPU-utilarisation, effective multicore-usage or GPU-load and settings?
+
+
+Interpretation for the Originality Challenge:
+    We consider, that the statistics to be collected is a questionnary with several questions (at least 5),
+    which have to be answered by every player. The questions should ask for how much the player liked the game
+    and (maybe) some (private) information about him if he wants to share. Those statistics would then be
+    send to the developers and might be displayed in a nice fashion for them (within their part of the game).
+
+
+
+
+Question 1:
+    With 'The game' is there ment to be collected information about the game (and or it's mechanics)
+    or about the application? Is the to-be-collected information supposed to reflect in-game status
+    or general information like CPU-usage, RAM-usage, execution time or bandwith?
+
+
+Question 2:
+    Is 'The game' supposed to save the collected information or is it okay to begin anew each start?
+
+Question 3:
+    Does 'displaying' mean that the statistics is somehow available for the player
+    or might it only be supposed for developers through a (debug) console or the like?
+    Display in what form, e.g. 'raw' data in a table or does it have to be a nice-looking graphic?
+
+Question 4:
+    
+
+
+
