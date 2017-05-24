@@ -42,10 +42,11 @@ Question 4:
     activity, and how many different statistics are we (the developers) allowed to collect?
 
 Question 5:
-The statistics could be saved as a chronological list of events
-which allows us to have a clear understanding of when and what 
-things happend and provide easier support if the player experiences.
-Or we could save them in a tablerized way which would have allow 
-us to compare the different metrics.
-For player related statistics we recommend the second option.
+    The statistics could be saved as a chronological list of events
+    which allows us to have a clear understanding of when and what 
+    things happend and provide easier support if the player experiences.
+    Or we could save them in a tablerized way which would have allow 
+    us to compare the different metrics.
+    For player related statistics we recommend the second option.
+    Which option would you like us to implement?
 
