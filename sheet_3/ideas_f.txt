@@ -1,0 +1,43 @@
+Here are some different Interpretations of the sentence:
+
+The game must collect and display at least 5 different statistics.
+
+
+Points you could interpret in different ways:
+The game:
+    Either the statistics could be about in-game events or the like,
+    or about the environment of the game, namely the application itself.
+    So we could collect runtime (CPU load, GPU load, memory, distribution, ..)
+    statistics or those about the game itself, e.g. Player statistics, or
+    simply about the game-mechanics, timing or the like.
+
+collect:
+    This appears to be unambiguous, but it could refer to collecting them
+    only during execution, meaning losing them after closing the application,
+    or saving them for further use/analysing
+
+display:
+    This could refer to a variarity of things, namely:
+    Show them during the game or directly after, visible for the player
+    or only for the developer, show them only on the server or for each
+    of the players. And: in what form, as an table with 3 fields or as
+    a beatiful graphics?
+
+at least 5:
+    okay this is pretty straightforward, but would it hinder us doing
+    several hundreds of different statistics?
+
+different:
+    Different in what? In what they represent, in how they represent, in
+    from what basis they represent, in what color they are?
+
+statistics:
+    This could be some (tablerized) file with information or some log from
+    events happened in the game, in what form is it supposed to be and
+    what would count? A pure log already or does it need to be plottable?
+    How extensive does it have to be? Does the one displayed have to be
+    dependent on the collected data?
+
+
+
+
