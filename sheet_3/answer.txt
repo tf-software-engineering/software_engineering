@@ -47,4 +47,4 @@ Yes, the first part is a good idea. What is being collected is dependent on the 
 
 The second one could also make sense if the collected statistics allow for displaying them in a tabular fashion. This could be overall time spent, built units, used resources, etc. Depending on what the game provides to collect.
 
-We like both ideas. Realize them both if it helps the player to understand the implications of the data for his game better. 
+We like both ideas. Realize them both if it helps the player to understand the implications of the data for his game better.

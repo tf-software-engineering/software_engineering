@@ -50,3 +50,36 @@ Question 5:
     For player related statistics we recommend the second option.
     Which option would you like us to implement?
 
+
+
+
+Answer 1:
+    The collected statistics should be game-related. That is, the game should collect
+    statistics about its behavior and mechanics. But we like your idea of displaying
+    the ping and currently used bandwidth. Besides the in-game statistics, this should
+    also be displayed.
+
+Answer 2:
+    That depends on the kind of statistics.
+
+Answer 3:
+    The statistics should always be available for the player to view. Otherwise, collecting
+    statistics doesn't make much sense. We are not interested in the development process.
+    If the developers need to display some internal data for themselves, they very well
+    may do that, but don't bother the player with that internal gibberish.
+
+Answer 4:
+    You (the developers) must collect at least 5 different statistics. The statistics
+    should be sensible and not too arbitrary. That is, the player should be able to
+    retrieve information useful to him to evaluate his gameplay. Therefore, the "topic"
+    or "broader area" depends on the type of game and the possibly collectible statistics.
+
+Answer 5:
+    Yes, the first part is a good idea. What is being collected is dependent on the kind
+    of statistics. This could, e.g. be a replay function where the player can review the
+    entire game and evaluate his gameplay. The second one could also make sense if the
+    collected statistics allow for displaying them in a tabular fashion. This could be
+    overall time spent, built units, used resources, etc. Depending on what the game
+    provides to collect. We like both ideas. Realize them both if it helps the player
+    to understand the implications of the data for his game better.
+
