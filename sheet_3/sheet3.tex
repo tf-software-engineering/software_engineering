@@ -3,16 +3,17 @@
 \usepackage[utf8]{inputenc}
 \usepackage[german]{babel}
 
-% zusätzliche mathematische Symbole, AMS=American Mathematical Society 
+% zusätzliche mathematische Symbole, AMS=American Mathematical Society
 \usepackage{amssymb}
 \usepackage{amsmath}
 % fürs Einbinden von Graphiken
 \usepackage{graphicx}
+\usepackage{verbatim}
 
 % für Namen etc. in Kopf- oder Fußzeile
 \usepackage{fancyhdr}
 
-% erlaubt benutzerdefinierte Kopfzeilen 
+% erlaubt benutzerdefinierte Kopfzeilen
 \pagestyle{fancy}
 
 % Definition der Kopfzeile
@@ -26,7 +27,7 @@ Michael Fleig & 4340085 & Anush Davtyan &4368689
 \rhead{\today{}}
 \lfoot{}
 \cfoot{Seite \thepage}
-\rfoot{} 
+\rfoot{}
 
 \begin{document}
 
@@ -34,9 +35,11 @@ Michael Fleig & 4340085 & Anush Davtyan &4368689
 
 \subsection*{Exercise 1 – Requirements Elicitation}
 \begin{itemize}
-	\item[i] Conditions to clarify:\\
-	\item[ii]
-	
+    \item[i] Explicitly different situations represented in the following questions. \\
+    \item[ii]
+        \verbatiminput{questions.txt}
+        Before, those interpretations seemed all plausible:
+        \verbatiminput{interpretations.txt}
 \end{itemize}
 
 
@@ -44,24 +47,24 @@ Michael Fleig & 4340085 & Anush Davtyan &4368689
 \subsection*{Exercise 2 – Analysis of Decision Tables}
 
 \begin{itemize}
-	\item[i]
-	\item[ii]
-	\item[iii]
-	\item[iv]
+    \item[i]
+    \item[ii]
+    \item[iii]
+    \item[iv]
 \end{itemize}
 
 \subsection*{Exercise 3 – Creation of Decision Tables}
 
 \begin{itemize}
-	\item[i]
-	\item[ii]
-	\item[iii]
+    \item[i]
+    \item[ii]
+    \item[iii]
 \end{itemize}
 \subsection*{Exercise 4 – Use Cases}
 
 \begin{itemize}
-	\item[i]
-	\item[ii]
+    \item[i]
+    \item[ii]
 \end{itemize}
 
 \end{document}
