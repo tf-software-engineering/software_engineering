@@ -25,7 +25,7 @@ Interpretation for the Originality Challenge:
 Question 1:
     With 'The game' is there ment to be collected information about the game (and or it's mechanics)
     or about the application? Is the to-be-collected information supposed to reflect in-game status
-    or general information like CPU-usage, RAM-usage, execution time or bandwith?
+    or general information like CPU-usage, RAM-usage, execution time or bandwidth?
 
 
 Question 2:
@@ -38,14 +38,14 @@ Question 3:
 
 Question 4:
     Should the statistics differ in the their topic, eg. should they be closely related
-    or cover broader area? How many of them should relate to the players individual 
+    or cover broader area? How many of them should relate to the players individual
     activity, and how many different statistics are we (the developers) allowed to collect?
 
 Question 5:
     The statistics could be saved as a chronological list of events
-    which allows us to have a clear understanding of when and what 
+    which allows us to have a clear understanding of when and what
     things happend and provide easier support if the player experiences.
-    Or we could save them in a tablerized way which would have allow 
+    Or we could save them in a tablerized way which would have allow
     us to compare the different metrics.
     For player related statistics we recommend the second option.
     Which option would you like us to implement?

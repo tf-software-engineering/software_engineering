@@ -1,6 +1,0 @@
-The statistics could be saved as a chronological list of events
-which allows us to have a clear understanding of when and what 
-things happend.
-Or we could save them in a tablerized way which would have allow 
-us to compare the different metrics.
-For player related statistics we recommend the second option.
