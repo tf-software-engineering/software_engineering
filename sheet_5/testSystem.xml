@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nta PUBLIC '-//Uppaal Team//DTD Flat System 1.1//EN' 'http://www.it.uu.se/research/group/darts/uppaal/flat-1_2.dtd'>
+<nta>
+	<declaration>// Place global declarations here.
+
+int lock;
+
+chan work_done;
+chan work_start;
+
+</declaration>
+	<template>
+		<name>Worker</name>
+		<location id="id0" x="-51" y="-144">
+			<name x="-61" y="-178">BROKEN</name>
+		</location>
+		<location id="id1" x="-170" y="-144">
+			<name x="-180" y="-178">WORKING</name>
+		</location>
+		<location id="id2" x="-280" y="-144">
+			<name x="-290" y="-178">IDLE</name>
+		</location>
+		<init ref="id2"/>
+		<transition>
+			<source ref="id1"/>
+			<target ref="id0"/>
+			<label kind="synchronisation" x="-152" y="-161">work_start?</label>
+		</transition>
+		<transition>
+			<source ref="id1"/>
+			<target ref="id2"/>
+			<label kind="synchronisation" x="-262" y="-93">work_done!</label>
+			<nail x="-170" y="-76"/>
+			<nail x="-280" y="-76"/>
+		</transition>
+		<transition>
+			<source ref="id2"/>
+			<target ref="id1"/>
+			<label kind="synchronisation" x="-262" y="-161">work_start?</label>
+		</transition>
+	</template>
+	<template>
+		<name x="5" y="5">Process</name>
+		<declaration>// Place local declarations here.</declaration>
+		<location id="id3" x="-272" y="-127" color="#ffa500">
+			<name x="-289" y="-110">CRITICAL</name>
+		</location>
+		<location id="id4" x="-204" y="-204">
+			<name x="-214" y="-238">ready</name>
+		</location>
+		<location id="id5" x="-365" y="-204">
+			<name x="-375" y="-238">idle</name>
+		</location>
+		<init ref="id5"/>
+		<transition>
+			<source ref="id3"/>
+			<target ref="id5"/>
+			<label kind="synchronisation" x="-450" y="-153">work_done?</label>
+			<label kind="assignment" x="-433" y="-136">lock := 0</label>
+			<nail x="-365" y="-127"/>
+		</transition>
+		<transition>
+			<source ref="id4"/>
+			<target ref="id3"/>
+			<label kind="synchronisation" x="-204" y="-153">work_start!</label>
+			<label kind="assignment" x="-204" y="-136">lock := 1</label>
+			<nail x="-204" y="-127"/>
+		</transition>
+		<transition>
+			<source ref="id5"/>
+			<target ref="id4"/>
+			<label kind="guard" x="-347" y="-242">lock == 0</label>
+		</transition>
+	</template>
+	<system>// Place template instantiations here.
+P1 = Process();
+P2 = Process();
+worker = Worker();
+// List one or more processes to be composed into a system.
+system P1, P2, worker;
+    </system>
+	<queries>
+		<query>
+			<formula>E&lt;&gt; deadlock
+			</formula>
+			<comment>
+			</comment>
+		</query>
+		<query>
+			<formula>E&lt;&gt; worker.BROKEN
+			</formula>
+			<comment>
+			</comment>
+		</query>
+		<query>
+			<formula>E&lt;&gt; (P1.CRITICAL &amp;&amp; P2.CRITICAL)
+			</formula>
+			<comment>
+			</comment>
+		</query>
+	</queries>
+</nta>
