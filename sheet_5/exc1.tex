@@ -115,4 +115,20 @@ Michael Fleig & 4340085 & Anush Davtyan &4368689
         \includegraphics[width=\textwidth]{Failing.png} \\
 
 \end{itemize}
+
+\subsection*{Exercise 2}
+Uppaal-checks: \\
+E<> worker.BROKEN \\
+(Property is Satisfied)
+E<> (P1.CRITICAL \&\& P2.CRITICAL) \\
+(Property is Satisfied)
+
+
+\subsection*{Exercise 3}
+
+A[] not ((Process(0).CRITICAL + Process(1).CRITICAL + Process(2).CRITICAL + Process(3).CRITICAL) > 1) \\
+(or generally from 0 to n)
+
+A and B do not satisfy the Mutual exclusion.
+
 \end{document}
