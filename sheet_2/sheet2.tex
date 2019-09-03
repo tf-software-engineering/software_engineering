@@ -49,7 +49,7 @@ Michael Fleig & 4340085 & Anush Davtyan &4368689
 		2 & 12\\
 	\end{tabular}\\\\
 	Surprisingly, our estimates did not differ that much in the first round.
-	By giving opinions for the lowest and the highest values, such as low experience leading to redundancy in the code, or that the use of a framework could reduce the amount of code, we came to the conclusion that the project should have about 12 $KLOC_{pars}$. 
+	By giving opinions for the lowest and the highest values, such as low experience leading to redundancy in the code, or that the use of a framework could reduce the amount of code, we came to the conclusion that the project should have about 12 $KLOC_{pars}$.
 	\item[iii]
 	We decided for small size, greater innovation, medium deadlines and stable development environment. Because of this we chose a medium project with $a=3.0$ and $b=1.12$.\\
 	\item[iv]
@@ -57,7 +57,7 @@ Michael Fleig & 4340085 & Anush Davtyan &4368689
 		\item[]Size of application database:  none \\
 		It is very low, we do not need a database.
 		\item[]Complexity of the product:  nominal \\
-		It is nominal because: only standart math will be used; mostly simple nesting; some divice-dependent operations, like error prosessing, but no operations at the physical I/O level; only simple structural changes and simple edits.
+		It is nominal because: only standart math will be used; mostly simple nesting; some divice-dependent operations, like error prosessing, but barely operations at the physical I/O level; only simple structural changes and simple edits.
 		\item[]Run-time performance constraints:   nominal \\
 		Because the software is processor-intensive.
 		\item[]Memory constraints:  nominal\\
@@ -77,9 +77,9 @@ Michael Fleig & 4340085 & Anush Davtyan &4368689
 		\item[]Programming language experience:  very low\\
 		Because the students have almost no experience in C\# or F\#.
 		\item[]Use of modern programming practices:  low\\
-		The group the group is only starting to use such practices.
+		The group is only starting to use such practices.
 		\item[]Use of software tools:  nominal\\
-		Some useful software tools will be used.
+		Some useful software tools will be used, but since experience is missing it's unlikely to get fully utilized.
 		\item[]Required development schedule:  nominal\\
 		Because a fixed deadline is set.
 
@@ -128,13 +128,24 @@ Michael Fleig & 4340085 & Anush Davtyan &4368689
 \subsection*{Exercise 2 – Process Modeling}
 
 \begin{itemize}
-    \item[i] Process model: \\ 
+    \item[i)] Process model: \\
+        (Additionally: For the Specification there's a Requirenment Analyst responsible, as is a SW Developer for the Integrated System) \\
     	\includegraphics[width=\textwidth]{swt_2_1.png}
-    \item[ii] (Might be on next page)
+    \item[ii)]
+        Tag 0: Project start. Requirenment Engineering start. \\
+        Tag 12: Specification complete. Development of SW Module Prototype and Test Specification creation start. \\
+        Tag 22: First Prototype of SW Module, SW Quality Assurance start \\
+        Tag 25: SW QA finished, one Issue detected, start next cycle for SW Modules \\
+        Tag 27: Issue fixed, Test specicfication finished, SW Modules now finished, Module Integration start \\
+        Tag 40: Modules integrated, start testing using Test specification \\
+        Tag 45: Modules fully integrated compliant to Test Spec, start of Certification Testing and writing of Technical documentation \\
+        Tag 55: Certified and Documentation finished, Finialize Project. \\
+    \item[iii)] (probably next page) \\
         \include{ganttdiagram}
-    \item[iii] Process model with fire detector\\
+    \item[iv)] Process model with fire detector \\
+        (Additionally: For the Specification there's a Requirenment Analyst responsible, as is a SW Developer for the Integrated System) \\
     	\includegraphics[width=\textwidth]{swt_2_3.png}
-    \item[iv] Effort: 7.5 PM, minimum excpeted duration: 7.5 M
+    \item[v)] Effort: 7.5 PM, minimum excpeted duration: 7.5 M
 \end{itemize}
 
 \end{document}
